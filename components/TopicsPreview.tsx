@@ -209,7 +209,7 @@ export default function TopicsPreview() {
         </div>
 
         {/* Programm CTA */}
-        <div className="mt-16 border-t border-slate-300 pt-10 text-center">
+        <div className="mt-16 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#0064a7]">
             Programm 2027
           </p>
