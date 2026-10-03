@@ -3,12 +3,12 @@ export default function BregenzInfo() {
     <section className="bg-white">
       <div className="mx-auto max-w-[1536px] px-6 pb-20 pt-12 lg:px-8 lg:pb-24 lg:pt-14">
         {/* Intro */}
-        <div className="mx-auto max-w-[820px] text-center lg:mx-0 lg:max-w-[900px] lg:text-left">
+        <div className="mx-auto max-w-[820px] text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#0064a7]">
             Kongress am Bodensee
           </p>
 
-          <p className="mx-auto mt-6 max-w-[760px] text-lg leading-relaxed text-slate-600 lg:mx-0 lg:max-w-[820px]">
+          <p className="mx-auto mt-6 max-w-[760px] text-lg leading-relaxed text-slate-600">
             Verbinden Sie Ihren Besuch der Nutrition 2027 mit einem Aufenthalt
             am Bodensee. Zwischen See und Bergen bietet Bregenz kurze Wege,
             vielfältige Freizeitmöglichkeiten und den passenden Rahmen, um den

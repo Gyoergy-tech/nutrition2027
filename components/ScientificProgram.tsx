@@ -4,7 +4,7 @@ import { path } from "@/lib/paths";
 export default function ProgramTopics() {
   return (
     <section className="bg-[#f5f7f9]">
-      <div className="mx-auto max-w-[1608px] px-6 py-16 lg:px-0 lg:py-20">
+      <div className="mx-auto max-w-[1608px] px-6 py-16 lg:px-5 lg:py-20">
         {/* Themen-Mosaik */}
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-12">
           {/* Mikrobiom */}
