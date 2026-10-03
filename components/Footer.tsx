@@ -1,8 +1,9 @@
+import { path } from "@/lib/paths";
+
 export default function Footer() {
   return (
     <footer className="bg-[linear-gradient(110deg,#078a9a_0%,#169486_38%,#65a82f_100%)] text-white">
       <div className="mx-auto max-w-[1536px] px-6 py-20 lg:px-8 lg:py-28">
-
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-[1.3fr_0.7fr_0.7fr]">
 
           {/* Kongress */}
@@ -25,21 +26,21 @@ export default function Footer() {
 
             <nav className="mt-4 flex flex-col gap-3 text-base">
               <a
-                href="/kongress"
+                href={path("/kongress")}
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Über den Kongress
               </a>
 
               <a
-                href="/abstracts"
+                href={path("/abstracts")}
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Abstracts
               </a>
 
               <a
-                href="/bregenz"
+                href={path("/bregenz")}
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Bregenz & Anreise
@@ -55,35 +56,33 @@ export default function Footer() {
 
             <nav className="mt-4 flex flex-col gap-3 text-base">
               <a
-                href="/kontakt"
+                href={path("/kontakt")}
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Kontakt
               </a>
 
               <a
-                href="/impressum"
+                href={path("/impressum")}
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Impressum
               </a>
 
               <a
-                href="/datenschutz"
+                href={path("/datenschutz")}
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Datenschutz
               </a>
             </nav>
           </div>
-
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-white/15 pt-6 text-sm text-white/50 md:flex-row md:items-center md:justify-between">
           <p>© 2027 NUTRITION</p>
           <p>AKE · DGEM · GESKES</p>
         </div>
-
       </div>
     </footer>
   );

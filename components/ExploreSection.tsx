@@ -1,3 +1,5 @@
+import { path } from "@/lib/paths";
+
 export default function ExploreSection() {
   return (
     <section className="relative overflow-hidden bg-white">
@@ -22,7 +24,7 @@ export default function ExploreSection() {
         <div className="mt-14 border-t border-slate-200">
           {/* ABSTRACTS */}
           <a
-            href="/abstracts"
+            href={path("/abstracts")}
             className="
               group grid gap-5
               border-b border-slate-200
@@ -82,7 +84,7 @@ export default function ExploreSection() {
 
           {/* BREGENZ */}
           <a
-            href="/bregenz"
+            href={path("/bregenz")}
             className="
               group grid gap-5
               border-b border-slate-200

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HeroDivider from "./HeroDivider";
+import { path } from "@/lib/paths";
 
 export default function BregenzHero() {
   return (
@@ -9,7 +10,7 @@ export default function BregenzHero() {
           {/* Bild */}
           <div className="relative h-[500px] overflow-hidden lg:h-[700px]">
             <Image
-                src="/images/bregenz/bregenz.jpg"
+                src={path("/images/bregenz/bregenz.jpg")}
                 alt="Festspielhaus Bregenz am Bodensee"
                 fill
                 priority

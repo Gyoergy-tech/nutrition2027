@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { path } from "@/lib/paths";
 
 export default function ProgramTopics() {
   return (
@@ -15,7 +16,7 @@ export default function ProgramTopics() {
             "
           >
             <Image
-              src="/images/programm/mikrobiom.jpg"
+              src={path("/images/programm/mikrobiom.jpg")}
               alt="Mikrobiom und personalisierte Ernährung"
               fill
               sizes="(max-width: 767px) 100vw, (max-width: 1023px) 100vw, 58vw"
@@ -105,7 +106,7 @@ export default function ProgramTopics() {
             "
           >
             <Image
-              src="/images/programm/intensivmedizin.png"
+              src={path("/images/programm/intensivmedizin.png")}
               alt="Intensivmedizin"
               fill
               sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 66vw"
@@ -155,7 +156,7 @@ export default function ProgramTopics() {
             "
           >
             <Image
-              src="/images/programm/nachhaltigkeit.jpg"
+              src={path("/images/programm/nachhaltigkeit.jpg")}
               alt="Nachhaltigkeit und Ernährungssysteme"
               fill
               sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 58vw"

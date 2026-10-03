@@ -1,3 +1,5 @@
+import { path } from "@/lib/paths";
+
 export default function OrganizerSection() {
   return (
     <section className="bg-white">
@@ -15,7 +17,7 @@ export default function OrganizerSection() {
           <div className="flex min-h-[180px] items-center justify-center px-8 md:border-r md:border-gray-200 scale-75">
             <div className="flex flex-col items-center">
               <img
-                src="/images/logos/ake2.jpg"
+                src={path("/images/logos/ake2.jpg")}
                 alt="AKE – Arbeitsgemeinschaft Klinische Ernährung"
                 className="h-[125px] w-auto object-contain"
               />
@@ -25,7 +27,7 @@ export default function OrganizerSection() {
           {/* DGEM */}
           <div className="flex min-h-[180px] items-center justify-center px-8 md:border-r md:border-gray-200">
             <img
-              src="/images/logos/dgem.png"
+              src={path("/images/logos/dgem.png")}
               alt="DGEM – Deutsche Gesellschaft für Ernährungsmedizin"
               className="h-auto max-h-[115px] w-full max-w-[340px] object-contain"
             />
@@ -34,7 +36,7 @@ export default function OrganizerSection() {
           {/* GESKES */}
           <div className="flex min-h-[180px] items-center justify-center px-8">
             <img
-              src="/images/logos/geskes.png"
+              src={path("/images/logos/geskes.png")}
               alt="GESKES SSNC – Gesellschaft für Ernährungsmedizin und Metabolismus Schweiz"
               className="h-auto max-h-[125px] w-full max-w-[400px] object-contain"
             />

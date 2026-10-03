@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { topics } from "@/data/topics";
+import { path } from "@/lib/paths";
 
 export default function TopicsPreview() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -229,7 +230,7 @@ export default function TopicsPreview() {
           </p>
 
           <a
-            href="/downloads/nutrition-2027-programm.pdf"
+            href={path("/downloads/nutrition-2027-programm.pdf")}
             target="_blank"
             rel="noopener noreferrer"
             className="

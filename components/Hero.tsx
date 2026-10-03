@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { path } from "@/lib/paths";
 
 export default function Hero() {
   return (
@@ -11,7 +12,7 @@ export default function Hero() {
           {/* Originalfoto */}
           <div className="absolute inset-y-0 left-[25%] right-0 overflow-hidden">
             <Image
-              src="/images/hero-festspielhaus.jpg"
+              src={path("/images/hero-festspielhaus.jpg")}
               alt="Festspielhaus Bregenz"
               fill
               priority
@@ -208,7 +209,7 @@ export default function Hero() {
           {/* Foto rechts */}
           <div className="relative min-h-[650px] overflow-hidden">
             <Image
-              src="/images/hero-festspielhaus.jpg"
+              src={path("/images/hero-festspielhaus.jpg")}
               alt="Festspielhaus Bregenz"
               fill
               priority
@@ -233,7 +234,7 @@ export default function Hero() {
         {/* Foto oben */}
         <div className="relative h-[340px] w-full overflow-hidden sm:h-[430px]">
           <Image
-            src="/images/hero-festspielhaus.jpg"
+            src={path("/images/hero-festspielhaus.jpg")}
             alt="Festspielhaus Bregenz"
             fill
             priority

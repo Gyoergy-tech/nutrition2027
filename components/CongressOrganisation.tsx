@@ -1,3 +1,4 @@
+import { path } from "@/lib/paths";
 import Image from "next/image";
 
 export default function CongressOrganization() {
@@ -17,7 +18,7 @@ export default function CongressOrganization() {
 
               <div className="relative aspect-[4/5] overflow-hidden bg-slate-100">
                 <Image
-                  src="/images/kongress/alexandra-schweiger.jpg"
+                  src={path("/images/kongress/alexandra-schweiger.jpg")}
                   alt="Alexandra Schweiger"
                   fill
                   sizes="180px"

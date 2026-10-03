@@ -1,20 +1,21 @@
 import Image from "next/image";
+import { path } from "@/lib/paths";
 
 const presidents = [
   {
     name: "Prim. Univ. Prof. Dr. Felix Keil",
     role: "Kongresspräsident",
-    image: "/images/kongress/felix-keil.jpeg",
+    image: path("/images/kongress/felix-keil.jpeg"),
   },
   {
     name: "DDr.in Arabella Fischer-Hammerschmied",
     role: "Kongresspräsidentin",
-    image: "/images/kongress/arabella-fischer-hammerschmied.png",
+    image: path("/images/kongress/arabella-fischer-hammerschmied.png"),
   },
   {
     name: "OA Dr. Patrick Clemens",
     role: "Kongresspräsident",
-    image: "/images/kongress/patrick-clemens.jpg",
+    image: path("/images/kongress/patrick-clemens.jpg"),
   },
 ];
 
