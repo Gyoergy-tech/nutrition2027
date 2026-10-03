@@ -12,33 +12,31 @@ export default function OrganizerSection() {
           <div className="mx-auto mt-5 h-[3px] w-10 bg-gradient-to-r from-[#0064a7] to-[#65a82f]" />
         </div>
 
-        <div className="mt-10 grid items-center gap-10 md:grid-cols-3 md:gap-0">
+        <div className="mt-10 grid items-center gap-6 md:grid-cols-3 md:gap-0">
           {/* AKE */}
-          <div className="flex min-h-[180px] items-center justify-center px-8 md:border-r md:border-gray-200 scale-75">
-            <div className="flex flex-col items-center">
-              <img
-                src={path("/images/logos/ake2.jpg")}
-                alt="AKE – Arbeitsgemeinschaft Klinische Ernährung"
-                className="h-[125px] w-auto object-contain"
-              />
-            </div>
+          <div className="flex h-[140px] items-center justify-center px-8 md:h-[180px] md:border-r md:border-gray-200">
+            <img
+              src={path("/images/logos/ake2.jpg")}
+              alt="AKE – Arbeitsgemeinschaft Klinische Ernährung"
+              className="max-h-[110px] w-full max-w-[300px] object-contain"
+            />
           </div>
 
           {/* DGEM */}
-          <div className="flex min-h-[180px] items-center justify-center px-8 md:border-r md:border-gray-200">
+          <div className="flex h-[140px] items-center justify-center px-8 md:h-[180px] md:border-r md:border-gray-200">
             <img
               src={path("/images/logos/dgem.png")}
               alt="DGEM – Deutsche Gesellschaft für Ernährungsmedizin"
-              className="h-auto max-h-[115px] w-full max-w-[340px] object-contain"
+              className="max-h-[110px] w-full max-w-[300px] object-contain"
             />
           </div>
 
           {/* GESKES */}
-          <div className="flex min-h-[180px] items-center justify-center px-8">
+          <div className="flex h-[140px] items-center justify-center px-8 md:h-[180px]">
             <img
               src={path("/images/logos/geskes.png")}
               alt="GESKES SSNC – Gesellschaft für Ernährungsmedizin und Metabolismus Schweiz"
-              className="h-auto max-h-[125px] w-full max-w-[400px] object-contain"
+              className="max-h-[110px] w-full max-w-[300px] object-contain"
             />
           </div>
         </div>

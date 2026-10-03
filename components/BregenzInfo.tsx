@@ -3,12 +3,12 @@ export default function BregenzInfo() {
     <section className="bg-white">
       <div className="mx-auto max-w-[1536px] px-6 pb-20 pt-12 lg:px-8 lg:pb-24 lg:pt-14">
         {/* Intro */}
-        <div className="mx-auto max-w-[820px] text-center">
+        <div className="mx-auto max-w-[820px] text-center lg:mx-0 lg:max-w-[900px] lg:text-left">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#0064a7]">
             Kongress am Bodensee
           </p>
 
-          <p className="mx-auto mt-6 max-w-[760px] text-lg leading-relaxed text-slate-600">
+          <p className="mx-auto mt-6 max-w-[760px] text-lg leading-relaxed text-slate-600 lg:mx-0 lg:max-w-[820px]">
             Verbinden Sie Ihren Besuch der Nutrition 2027 mit einem Aufenthalt
             am Bodensee. Zwischen See und Bergen bietet Bregenz kurze Wege,
             vielfältige Freizeitmöglichkeiten und den passenden Rahmen, um den
@@ -19,10 +19,11 @@ export default function BregenzInfo() {
         {/* Datum / Veranstaltungsort / Route */}
         <div
           className="
-            mx-auto mt-10 flex max-w-[900px]
+            mt-10 flex
             flex-col items-center justify-center gap-5
             border-y border-slate-200 py-7 text-center
             md:flex-row md:gap-10
+            lg:justify-start lg:text-left
           "
         >
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#0064a7]">
@@ -59,14 +60,14 @@ export default function BregenzInfo() {
         </div>
 
         {/* Anreise + Hotel */}
-        <div className="mx-auto mt-12 grid max-w-[1000px] gap-12 lg:grid-cols-2 lg:gap-0">
+        <div className="mt-12 grid gap-12 lg:grid-cols-2 lg:gap-0">
           {/* Anreise */}
           <div className="lg:pr-16">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#0064a7]">
               Anreise
             </p>
 
-            <p className="mt-5 max-w-[480px] text-lg leading-relaxed text-slate-600">
+            <p className="mt-5 max-w-[560px] text-lg leading-relaxed text-slate-600">
               Bregenz ist mit Bahn, Auto und über die umliegenden Flughäfen gut
               erreichbar. Der Bahnhof Bregenz liegt nur wenige Gehminuten vom
               Festspielhaus entfernt.
@@ -99,10 +100,10 @@ export default function BregenzInfo() {
               Hotel &amp; Aufenthalt
             </p>
 
-            <p className="mt-5 max-w-[480px] text-lg leading-relaxed text-slate-600">
+            <p className="mt-5 max-w-[560px] text-lg leading-relaxed text-slate-600">
               Für die Nutrition 2027 wird über Convention Partner Vorarlberg ein
-                Hotelkontingent eingerichtet. Der Buchungslink wird rechtzeitig
-                veröffentlicht.
+              Hotelkontingent eingerichtet. Der Buchungslink wird rechtzeitig
+              veröffentlicht.
             </p>
 
             <p className="mt-6 text-sm font-semibold uppercase tracking-[0.1em] text-slate-400">

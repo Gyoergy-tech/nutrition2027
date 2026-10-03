@@ -34,7 +34,7 @@ export default function Hero() {
           {/* Inhalt */}
           <div className="relative z-10 h-full px-8">
             <div className="flex h-full items-center">
-              <div className="ml-12 w-[520px]">
+              <div className="w-[520px]">
                 <p className="mb-1 text-sm font-semibold uppercase tracking-[0.15em] text-[#092750]">
                   25. Dreiländertagung
                 </p>
@@ -216,7 +216,6 @@ export default function Hero() {
               className="object-cover object-[50%_center]"
             />
 
-            {/* weicher Übergang zwischen Text und Bild */}
             {/* Breiter, weicher Übergang */}
             <div className="pointer-events-none absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white/80 to-transparent" />
 
