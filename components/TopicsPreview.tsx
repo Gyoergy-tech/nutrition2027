@@ -14,15 +14,9 @@ export default function TopicsPreview() {
   return (
     <section id="programm" className="bg-[#f5f7f9]">
       <div className="mx-auto max-w-[1536px] px-6 py-20 lg:px-8 lg:py-28">
-        {/* =====================================================
-            THEMENBEREICH
-        ====================================================== */}
-
+        {/* Themenbereich */}
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
-          {/* =====================================================
-              LINKS – EINLEITUNG
-          ====================================================== */}
-
+          {/* Links – Einleitung */}
           <div className="lg:pt-2">
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#0064a7]">
               Programm & Themen
@@ -47,24 +41,26 @@ export default function TopicsPreview() {
             </p>
           </div>
 
-          {/* =====================================================
-              RECHTS – ACCORDION
-          ====================================================== */}
-
+          {/* Rechts – Accordion */}
           <div className="border-t border-slate-300">
             {topics.map((topic, index) => {
               const isOpen = openIndex === index;
+              const isLast = index === topics.length - 1;
               const panelId = `topic-panel-${index}`;
               const buttonId = `topic-button-${index}`;
 
               return (
                 <div
                   key={topic.title}
-                  className="
+                  className={`
                     group
-                    border-b border-slate-300
                     transition-colors duration-300
-                  "
+                    ${
+                      isLast
+                        ? "md:border-b md:border-slate-300"
+                        : "border-b border-slate-300"
+                    }
+                  `}
                 >
                   {/* Accordion-Kopf */}
                   <button
@@ -129,7 +125,7 @@ export default function TopicsPreview() {
                         justify-self-end
                       "
                     >
-                      {/* horizontale Linie */}
+                      {/* Horizontale Linie */}
                       <span
                         className="
                           absolute
@@ -140,7 +136,7 @@ export default function TopicsPreview() {
                         "
                       />
 
-                      {/* vertikale Linie */}
+                      {/* Vertikale Linie */}
                       <span
                         className={`
                           absolute
@@ -160,10 +156,7 @@ export default function TopicsPreview() {
                     </span>
                   </button>
 
-                  {/* =================================================
-                      ANIMIERTER INHALT
-                  ================================================== */}
-
+                  {/* Animierter Inhalt */}
                   <div
                     id={panelId}
                     role="region"
@@ -184,7 +177,6 @@ export default function TopicsPreview() {
                       <div
                         className={`
                           grid
-
                           grid-cols-[1fr_32px]
                           gap-x-4
 
@@ -205,7 +197,7 @@ export default function TopicsPreview() {
                           {topic.text}
                         </p>
 
-                        {/* hält Text vom +/- Bereich fern */}
+                        {/* Hält Text vom +/- Bereich fern */}
                         <div />
                       </div>
                     </div>
@@ -216,10 +208,7 @@ export default function TopicsPreview() {
           </div>
         </div>
 
-        {/* =====================================================
-            PROGRAMM CTA
-        ====================================================== */}
-
+        {/* Programm CTA */}
         <div className="mt-16 border-t border-slate-300 pt-10 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#0064a7]">
             Programm 2027
@@ -234,7 +223,7 @@ export default function TopicsPreview() {
             target="_blank"
             rel="noopener noreferrer"
             className="
-              mt-6 inline-flex items-center gap-3
+              mt-6 inline-flex items-center justify-center
               rounded-md
               bg-gradient-to-r from-[#0064a7] to-[#65a82f]
               px-7 py-3.5
@@ -245,8 +234,6 @@ export default function TopicsPreview() {
             "
           >
             Programm ansehen
-
-            <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>

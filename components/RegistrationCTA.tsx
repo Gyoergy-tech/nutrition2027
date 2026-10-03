@@ -40,7 +40,10 @@ export default function RegistrationCTA() {
               "
             >
               Zur Anmeldung
-              <span aria-hidden="true">↗</span>
+              <span 
+              aria-hidden="true"
+              className="text-base font-normal"
+              >↗</span>
             </a>
           </div>
 
