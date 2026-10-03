@@ -121,6 +121,23 @@ export default function ImpressumContent() {
             </p>
           </div>
 
+          {/* Bildnachweise */}
+          <div className="mt-14 border-t border-slate-200 pt-12">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#0064a7]">
+              Bildnachweise
+            </p>
+
+            <div className="mt-5 space-y-3 text-lg leading-relaxed text-slate-600">
+              <p>
+                Festspielhaus Bregenz: © KoenigsFreunde / Festspielhaus Bregenz
+              </p>
+
+              <p>
+                Bregenz: © Vorarlberg Tourismus
+              </p>
+            </div>
+          </div>
+
           {/* Website */}
           <div className="mt-14 border-t border-slate-200 pt-12">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#0064a7]">
