@@ -218,10 +218,9 @@ export default function TopicsPreview() {
             Alle Vorträge, Sessions und Zeiten im Überblick.
           </p>
 
-          <a
-            href={path("/downloads/nutrition-2027-programm.pdf")}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            disabled
             className="
               mt-6 inline-flex items-center justify-center
               rounded-md
@@ -229,12 +228,12 @@ export default function TopicsPreview() {
               px-7 py-3.5
               text-sm font-semibold uppercase tracking-[0.1em]
               text-white
-              transition duration-200
-              hover:brightness-110
+              opacity-50
+              cursor-not-allowed
             "
           >
-            Programm ansehen
-          </a>
+            Programm folgt
+          </button>
         </div>
       </div>
     </section>

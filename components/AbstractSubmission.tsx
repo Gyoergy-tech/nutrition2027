@@ -29,19 +29,21 @@ export default function AbstractSubmission() {
           </div>
 
           <div className="lg:text-right">
-            <button
-              type="button"
-              disabled
+            <a
+              href="https://www.sanicademia.eu/fortbildung/nutrition2027/#tab-id-5"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
-                inline-flex w-fit cursor-not-allowed
+                inline-flex w-fit cursor-pointer
                 items-center justify-center
                 bg-slate-200 px-7 py-4
                 text-sm font-semibold uppercase
-                tracking-[0.12em] text-slate-500
+                tracking-[0.12em] text-slate-700
+                transition-colors hover:bg-slate-300
               "
             >
-              Einreichung folgt
-            </button>
+              Abstract einreichen
+            </a>
           </div>
 
         </div>

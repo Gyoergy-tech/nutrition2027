@@ -5,7 +5,7 @@ const societies = [
     country: "Österreich",
   },
   {
-    name: "Deutsche Gesellschaft für Ernährungsmedizin",
+    name: "Deutsche Gesellschaft für Ernährungsmedizin e.V.",
     abbreviation: "DGEM",
     country: "Deutschland",
   },

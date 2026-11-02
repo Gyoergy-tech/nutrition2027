@@ -82,7 +82,7 @@ export default function ContactInfo() {
             </h2>
 
             <p className="mt-2 text-lg text-slate-600">
-              MMag. Kathrin Brugger
+              MMag.a Kathrin Brugger
             </p>
 
             <div className="mt-8 space-y-1 text-lg leading-relaxed text-slate-600">
@@ -93,14 +93,14 @@ export default function ContactInfo() {
 
             <div className="mt-8 flex flex-col items-start gap-3">
               <a
-                href="mailto:kathrin.brugger@sanicaedmia.eu"
+                href="mailto:kathrin.brugger@sanicademia.eu"
                 className="
                   text-lg font-semibold text-[#0064a7]
                   transition-colors duration-200
                   hover:text-[#65a82f]
                 "
               >
-                kathrin.brugger@sanicaedmia.eu
+                kathrin.brugger@sanicademia.eu
               </a>
 
               <a

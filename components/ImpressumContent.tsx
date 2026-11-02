@@ -10,7 +10,7 @@ export default function ImpressumContent() {
             </p>
 
             <h2 className="mt-5 text-2xl font-semibold text-[#092750]">
-              Arbeitsgemeinschaft für Klinische Ernährung – AKE
+              Arbeitsgemeinschaft Klinische Ernährung – AKE
             </h2>
 
             <div className="mt-5 text-lg leading-relaxed text-slate-600">
@@ -148,7 +148,7 @@ export default function ImpressumContent() {
               Konzeption, Design und technische Umsetzung:
               <br />
               <span className="font-semibold text-[#092750]">
-                Markus Györgyfalvay, Bakk BSc MSc
+                Markus Györgyfalvay, MSc Bakk BSc 
               </span>
             </p>
           </div>

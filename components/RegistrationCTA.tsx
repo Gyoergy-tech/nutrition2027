@@ -23,7 +23,7 @@ export default function RegistrationCTA() {
 
           <div className="shrink-0">
             <a
-              href="https://www.ake-nutrition.at/"
+              href="https://www.sanicademia.eu/fortbildung/nutrition2027/"
               target="_blank"
               rel="noopener noreferrer"
               className="

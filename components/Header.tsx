@@ -59,7 +59,7 @@ export default function Header() {
             {/* TODO: Durch direkten Anmeldelink für Nutrition 2027 ersetzen */}
             <li>
               <a
-                href="https://ake-nutrition.at/"
+                href="https://www.sanicademia.eu/fortbildung/nutrition2027/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
@@ -168,10 +168,10 @@ export default function Header() {
               </a>
             </li>
 
-            {/* TODO: Durch direkten Anmeldelink für Nutrition 2027 ersetzen */}
+            
             <li className="mt-4 w-full max-w-xs">
               <a
-                href="https://ake-nutrition.at/"
+                href="https://www.sanicademia.eu/fortbildung/nutrition2027/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

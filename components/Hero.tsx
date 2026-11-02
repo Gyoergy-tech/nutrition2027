@@ -200,7 +200,7 @@ export default function Hero() {
                     hover:bg-gray-100
                   "
                 >
-                  Programm ansehen
+                  Programm folgt
                 </a>
               </div>
             </div>
@@ -289,7 +289,7 @@ export default function Hero() {
 
           <div className="mt-7 flex max-w-sm flex-col gap-3">
             <a
-              href="https://www.ake-nutrition.at/"
+              href="https://www.sanicademia.eu/fortbildung/nutrition2027/"
               target="_blank"
               rel="noopener noreferrer"
               className="

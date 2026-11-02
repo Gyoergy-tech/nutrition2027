@@ -10,7 +10,7 @@ const presidents = [
   {
     name: "DDr.in Arabella Fischer-Hammerschmied",
     role: "Kongresspräsidentin",
-    image: path("/images/kongress/arabella-fischer-hammerschmied.png"),
+    image: path("/images/kongress/arabella-fischer-hammerschmied.jpg"),
   },
   {
     name: "OA Dr. Patrick Clemens",
@@ -30,9 +30,11 @@ export default function CongressPresidium() {
             Kongresspräsidium
           </p>
 
-          <h2 className="mt-5 text-4xl font-semibold tracking-tight text-[#092750] lg:text-5xl">
+          <h2 className="mt-5 text-3xl font-semibold tracking-tight text-[#092750] md:text-4xl lg:whitespace-nowrap lg:text-[42px]">
             Gemeinsam für die{" "}
-            <span className="text-[#65a82f]">Nutrition 2027.</span>
+            <span className="text-[#65a82f]">
+              Nutrition 2027.
+            </span>
           </h2>
         </div>
 

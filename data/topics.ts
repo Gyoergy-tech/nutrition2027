@@ -14,7 +14,7 @@ export const topics: Topic[] = [
   },
   {
     title: "Onkologie",
-    text: "Ernährungsmedizinische Strategien begleiten Patienten durch verschiedene Phasen onkologischer Erkrankungen und Therapien.",
+    text: "Ernährungsmedizinische Strategien begleiten Patientinnen und Patienten durch verschiedene Phasen onkologischer Erkrankungen und Therapien.",
   },
   {
     title: "Geriatrie & Pädiatrie",

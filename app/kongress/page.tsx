@@ -4,8 +4,9 @@ import CongressPresidium from "@/components/CongressPresidium";
 import CongressOrganizers from "@/components/CongressOrganizers";
 import CongressOrganisation from "@/components/CongressOrganisation";
 import RegistrationCTA from "@/components/RegistrationCTA";
-
+import ScientificCommittee from "@/components/ScientificCommittee";
 import Footer from "@/components/Footer";
+
 
 export default function KongressPage() {
   return (
@@ -14,6 +15,7 @@ export default function KongressPage() {
       <main>
         <KongressHero />
         <CongressPresidium />
+        <ScientificCommittee />
         <CongressOrganizers />
         <RegistrationCTA />
         <CongressOrganisation />
