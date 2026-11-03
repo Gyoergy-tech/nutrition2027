@@ -33,7 +33,7 @@ export default function Footer() {
               </a>
 
               <a
-                href={path("/abstracts")}
+                href="https://www.sanicademia.eu/fortbildung/nutrition2027/#tab-id-5"
                 className="text-white/75 transition-colors hover:text-white"
               >
                 Abstracts

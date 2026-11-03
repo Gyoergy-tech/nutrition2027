@@ -74,9 +74,7 @@ export default function BregenzInfo() {
             </p>
 
             <a
-              href="https://www.meetinvorarlberg.cc/nutrition-2027"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="
                 mt-6 inline-flex items-center gap-2
                 text-sm font-semibold uppercase tracking-[0.1em]
@@ -85,7 +83,7 @@ export default function BregenzInfo() {
                 hover:text-[#65a82f]
               "
             >
-              Informationen zur Hotelbuchung
+              Informationen zur Anreise
               <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -108,9 +106,19 @@ export default function BregenzInfo() {
               veröffentlicht.
             </p>
 
-            <p className="mt-6 text-sm font-semibold uppercase tracking-[0.1em] text-slate-400">
-              Hotelbuchung folgt
-            </p>
+            <a
+              href="https://www.meetinvorarlberg.cc/nutrition-2027/unterkuenfte"
+              className="
+                mt-6 inline-flex items-center gap-2
+                text-sm font-semibold uppercase tracking-[0.1em]
+                text-[#0064a7]
+                transition-colors duration-200
+                hover:text-[#65a82f]
+              "
+            >
+              Hotelbuchung
+              <span aria-hidden="true">→</span>
+            </a>
           </div>
         </div>
       </div>

@@ -171,7 +171,7 @@ export default function Hero() {
 
               <div className="mt-7 flex flex-col gap-3">
                 <a
-                  href="https://www.ake-nutrition.at/"
+                  href="https://www.sanicademia.eu/fortbildung/nutrition2027/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="

@@ -23,19 +23,21 @@ export default function ExploreSection() {
 
         <div className="mt-14 border-t border-slate-200">
           {/* ABSTRACTS */}
-          <a
-            href={path("/abstracts")}
-            className="
-              group grid gap-5
-              border-b border-slate-200
-              py-9
-              transition-colors duration-300
-              hover:bg-slate-50/70
-              md:grid-cols-[180px_1fr_auto]
-              md:items-center
-              md:px-5
-            "
-          >
+            <a
+              href="https://www.sanicademia.eu/fortbildung/nutrition2027/#tab-id-5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                group grid gap-5
+                border-b border-slate-200
+                py-9
+                transition-colors duration-300
+                hover:bg-slate-50/70
+                md:grid-cols-[180px_1fr_auto]
+                md:items-center
+                md:px-5
+              "
+            >
             <span className="text-sm font-semibold uppercase tracking-[0.18em] text-[#0064a7]">
               Abstracts
             </span>
