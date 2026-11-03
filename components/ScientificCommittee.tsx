@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { path } from "@/lib/paths";
 
 const committee = [
   {
@@ -50,9 +51,10 @@ export default function ScientificCommittee() {
                     <div className="relative h-24 w-24 overflow-hidden rounded-full bg-slate-100 ring-1 ring-slate-200">
                       {member.image ? (
                         <Image
-                          src={member.image}
+                          src={path(member.image)}
                           alt={member.name}
                           fill
+                          unoptimized
                           sizes="96px"
                           className="object-cover"
                         />
