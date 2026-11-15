@@ -5,7 +5,7 @@ const presidents = [
   {
     name: "Prim. Univ. Prof. Dr. Felix Keil",
     role: "Kongresspräsident",
-    image: path("/images/kongress/felix-keil.jpeg"),
+    image: path("/images/kongress/felix-keil.jpg"),
   },
   {
     name: "DDr.in Arabella Fischer-Hammerschmied",

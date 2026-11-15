@@ -6,14 +6,14 @@ const committee = [
     society: "DGEM",
     members: [
       { name: "Prof. Dr. med. Jürgen Bauer", image: "/images/scientific-committee/bauer.jpg" },
-      { name: "Prof. Dr. Christian Sina", image: "/images/scientific-committee/sina.png" },
+      { name: "Prof. Dr. Christian Sina", image: "/images/scientific-committee/sina.jpg" },
     ],
   },
   {
     society: "GESKES",
     members: [
-      { name: "Prof. Dr. med. Philipp Schütz", image: "/images/scientific-committee/schütz.jpg" },
-      { name: "Dr. med. Claudia Krieger-Grübel", image: "/images/scientific-committee/krieger-grübel.png" },
+      { name: "Prof. Dr. med. Philipp Schütz", image: "/images/scientific-committee/schuetz.jpg" },
+      { name: "Dr. med. Claudia Krieger-Grübel", image: "/images/scientific-committee/krieger-gruebel.jpg" },
     ],
   },
   {
@@ -57,6 +57,7 @@ export default function ScientificCommittee() {
                           unoptimized
                           sizes="96px"
                           className="object-cover"
+                          loading="lazy"
                         />
                       ) : (
                         <div className="flex h-full w-full items-center justify-center text-2xl font-semibold text-slate-300" aria-label="Foto folgt">

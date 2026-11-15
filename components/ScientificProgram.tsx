@@ -106,11 +106,12 @@ export default function ProgramTopics() {
             "
           >
             <Image
-              src={path("/images/programm/intensivmedizin.png")}
+              src={path("/images/programm/intensivmedizin.jpg")}
               alt="Intensivmedizin"
               fill
               sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 66vw"
               className="object-cover transition-transform duration-700 group-hover:scale-[1.025]"
+              loading="lazy"
             />
 
             <div className="absolute inset-0 bg-gradient-to-r from-[#092750]/90 via-[#092750]/55 to-[#092750]/10" />
